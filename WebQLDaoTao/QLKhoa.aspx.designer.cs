@@ -15,22 +15,22 @@ namespace WebQLDaoTao
     {
 
         /// <summary>
-        /// txtMaKH control.
+        /// txtMakh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMaKH;
+        protected global::System.Web.UI.WebControls.TextBox txtMakh;
 
         /// <summary>
-        /// txtTenKH control.
+        /// txtTenkh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTenKH;
+        protected global::System.Web.UI.WebControls.TextBox txtTenkh;
 
         /// <summary>
         /// btnThem control.
@@ -58,14 +58,5 @@ namespace WebQLDaoTao
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvKhoa;
-
-        /// <summary>
-        /// ods_Khoa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ObjectDataSource ods_Khoa;
     }
 }

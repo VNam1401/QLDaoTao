@@ -37,7 +37,6 @@
                         </ItemTemplate>
                         <FooterTemplate>
                             <asp:LinkButton ID="btLuu" runat="server" Text="Lưu điểm" CssClass="btn btn-success" OnClick="btLuu_Click">
-                        
                             </asp:LinkButton>
                         </FooterTemplate>
                     </asp:TemplateField>
@@ -50,7 +49,6 @@
                         </ItemTemplate>
                         <FooterTemplate>
                             <asp:LinkButton ID="btXoa" OnClientClick="return confirm('Bạn có muốn xóa điểm này không?')" runat="server" Text="Xoá" CssClass="btn btn-success" OnClick="btXoa_Click">
-                        
                             </asp:LinkButton>
                         </FooterTemplate>
                     </asp:TemplateField>

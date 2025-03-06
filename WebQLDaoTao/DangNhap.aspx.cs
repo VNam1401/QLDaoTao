@@ -23,11 +23,11 @@ namespace WebQLDaoTao
             if (tkDAO.checkLogin(username, password)) //thanh cong
             {
                 Session[" username "] = username;
-                Response.Redirect("Default.aspx");
+                Response.Redirect(" Default.aspx");
             }
             else //that bai
             {
-                lblThongBao.Text = " Đăng nhập thất bại do sai tên hoặc mật khẩu.";
+                lblThongBao.Text =" Đăng nhập thất bại do sai tên hoặc mật khẩu." ;
             }
         }
     }

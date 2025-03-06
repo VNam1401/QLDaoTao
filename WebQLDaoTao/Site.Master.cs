@@ -11,7 +11,23 @@ namespace WebQLDaoTao
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                if (Session["UserName"] != null && !string.IsNullOrEmpty(Session["UserName"].ToString()))
+                {
+                    liDangNhap.Visible = false;
+                    liTenDN.Visible = true;
+                    liDangXuat.Visible = true;
+                    lbTen.Text = Session["UserName"].ToString();
+                }
+                else
+                {
+                    liDangNhap.Visible = true;
+                    liTenDN.Visible = false;
+                    liDangXuat.Visible = false;
+                    lbTen.Text = "";
+                }
+            }
         }
     }
 }
