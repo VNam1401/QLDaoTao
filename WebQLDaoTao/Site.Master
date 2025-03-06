@@ -58,7 +58,7 @@
                         </li>
 
                         <li id="liDangXuat" runat="server" visible="false">
-                            <a href="Logout.aspx">
+                            <a href="DangNhap.aspx">
                                 <span>Đăng xuất</span>
                             </a>
                         </li>
@@ -84,7 +84,7 @@
             </div>
         </div>
         <footer class="container-fluid text-center">
-            <p>Sinh thực hiện: 2321160085 -Nguyễn Văn Nam</p>
+            <p>Sinh thực hiện:2321160085-Nguyễn Văn Nam</p>
         </footer>
     </form>
 </body>
