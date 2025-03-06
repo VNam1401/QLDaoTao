@@ -42,7 +42,7 @@
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="QLMonHoc.aspx">Môn học</a></li>
-                                <li><a href="QLMonHoc.aspx">Khoa</a></li>
+                                <li><a href="QLKhoa.aspx">Khoa</a></li>
                                 <li><a href="QLSinhVien.aspx">Sinh viên</a></li>
                             </ul>
                         </li>
