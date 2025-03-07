@@ -58,7 +58,7 @@
                             <asp:Label ID="lbTen" runat="server" Text=""></asp:Label>
                         </li>
                         <li id="liDangXuat" runat="server" visible="false">
-                            <a href="Logout.aspx">
+                            <a href="DangXuat.aspx">
                                 <span class="glyphicon glyphicon-log-out"></span>Đăng xuất</a>
                         </li>
                     </ul>

@@ -13,19 +13,18 @@ namespace WebQLDaoTao
         {
             if (!IsPostBack)
             {
-                if (Session["UserName"] != null && !string.IsNullOrEmpty(Session["UserName"].ToString()))
+                if (Session["TaiKhoan"] != null)
                 {
                     liDangNhap.Visible = false;
-                    liTenDN.Visible = true;
                     liDangXuat.Visible = true;
-                    lbTen.Text = Session["UserName"].ToString();
+                    liTenDN.Visible = true;
+                    lbTen.Text = Session["TenDN"].ToString();
                 }
                 else
                 {
                     liDangNhap.Visible = true;
-                    liTenDN.Visible = false;
                     liDangXuat.Visible = false;
-                    lbTen.Text = "";
+                    liTenDN.Visible = false;
                 }
             }
         }
