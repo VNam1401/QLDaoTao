@@ -75,6 +75,7 @@
     <Content Include="QLKhoa.aspx" />
     <Content Include="QLMonHoc.aspx" />
     <Content Include="QLSinhVien.aspx" />
+    <Content Include="TuChoiTruyCap.aspx" />
     <Content Include="Web.config" />
     <Content Include="QLKetQua.aspx" />
   </ItemGroup>
@@ -155,6 +156,13 @@
     </Compile>
     <Compile Include="QLKetQua.aspx.designer.cs">
       <DependentUpon>QLKetQua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TuChoiTruyCap.aspx.cs">
+      <DependentUpon>TuChoiTruyCap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TuChoiTruyCap.aspx.designer.cs">
+      <DependentUpon>TuChoiTruyCap.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
