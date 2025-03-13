@@ -11,7 +11,7 @@ namespace WebQLDaoTao
 {
 
 
-    public partial class QLDiem
+    public partial class KetQua
     {
 
         /// <summary>

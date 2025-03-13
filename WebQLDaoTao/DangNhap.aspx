@@ -83,7 +83,7 @@
             <div class="login-header">
                 <i class="fas fa-user-graduate login-icon"></i>
                 <h1>Đăng Nhập Hệ Thống</h1>
-                <p class="text-muted">Vui lòng đăng nhập để tiếp tục</p>
+                
             </div>
             
             <div class="form-group">
@@ -95,19 +95,19 @@
             </div>
             
             <div class="form-group">
-                <label for="txtPassword" class="form-label" placeholder="Enter password">Mật khẩu</label>
+                <label for="txtPassword" class="form-label"placeholder="Enter password">Mật khẩu</label>
                 <div class="input-group">
                     <span class="input-group-text"><i class="fas fa-lock"></i></span>
                     <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Nhập mật khẩu"></asp:TextBox>
                 </div>
             </div>
             
-            <div class="form-check mb-3">
+            <%--<div class="form-check mb-3">
                 <input class="form-check-input" type="checkbox" value="" id="rememberMe" />
                 <label class="form-check-label" for="rememberMe">
                     Nhớ đăng nhập
                 </label>
-            </div>
+            </div>--%>
             
             <asp:Button ID="btnDangNhap" runat="server" Text="Đăng nhập" CssClass="btn btn-login" OnClick="btDangNhap_Click" />
             
